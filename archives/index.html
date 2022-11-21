@@ -1,349 +1,286 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+    <title>Archives | Hexo</title>
+    <meta name="keywords" content="hexo,theme,otakism,otaku"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="google-site-verification" content=""/>
+    <meta name="baidu-site-verification" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="Hexo Theme Redefine">
-    <meta name="description" content="Hexo Theme Redefine">
-    <meta name="author" content="The Redefine Team">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/archives/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
     
-    <title>
-        
-            Archive |
-        
-        Theme Redefine
-    </title>
-    
-<link rel="stylesheet" href="/css/style.css">
 
-    <link rel="shortcut icon" href="/images/logo.svg">
+    <!-- Favicon -->
     
-<link rel="stylesheet" href="/css/fontawesome.min.css">
 
-    <link href="/css/fontawesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/regular.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/v5-font-face.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/duotone.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/brands.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/solid.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="//evan.beee.top/css/waline.css"/>
-    <script src="//evan.beee.top/js/waline.js"></script>
-    <link href='/css/css2.css' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script id="hexo-configurations">
-    let REDEFINE = window.REDEFINE || {};
-    REDEFINE.hexo_config = {"hostname":"example.com","root":"/","language":"en"};
-    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/avatar.svg","favicon":"/images/logo.svg","article_img_align":"center","left_side_width":"240px","content_max_width":"960px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_img":"/images/wallheaven-bg.webp","description":"Theme Redefine"},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":true},"code_copy":{"enable":true},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"0.3.2"};
-    REDEFINE.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
-  </script>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto:300,400,700" rel="stylesheet">
+
+    
+<link rel="stylesheet" href="/style.css">
+
+    <script>
+      function setLoadingBarProgress(num) {
+        document.getElementById('loading-bar').style.width = num + "%";
+      }
+    </script>
+
+    
+
+
 <meta name="generator" content="Hexo 5.4.2"></head>
 
-
 <body>
-<div class="progress-bar-container">
-    
-        <span class="scroll-progress-bar"></span>
-    
 
-    
-        <span class="pjax-progress-bar"></span>
-        <span class="pjax-progress-icon">
-            <i class="fas fa-circle-notch fa-spin"></i>
-        </span>
-    
+<div id="loading-bar-wrapper">
+  <div id="loading-bar"></div>
 </div>
 
+<script>setLoadingBarProgress(20)</script>
 
-<main class="page-container">
+<div id="site-wrapper">
 
-    
-
-    <div class="page-main-content">
-
-        <div class="page-main-content-top">
-            <header class="header-wrapper">
-    
-    <div class="header-content">
-        <div class="left">
-            
-            <a class="logo-title" href="/">
-                Theme Redefine
-            </a>
-        </div>
-
-        <div class="right">
-            <div class="pc">
-                <ul class="menu-list">
-                    
-                        <li class="menu-item">
-                            <a class=""
-                               href="/"
-                            >
-                                HOME
-                            </a>
-                        </li>
-                    
-                        <li class="menu-item">
-                            <a class="active"
-                               href="/archives"
-                            >
-                                ARCHIVES
-                            </a>
-                        </li>
-                    
-                    
-                </ul>
-            </div>
-            <div class="mobile">
-                
-                <div class="icon-item menu-bar">
-                    <div class="menu-bar-middle"></div>
-                </div>
-            </div>
-        </div>
+    <header id="header">
+    <div id="header-wrapper" class="clearfix">
+        <a id="logo" href="/">
+            <img src="/img/logo.png"/>
+            <span id="site-desc">
+                otaku keeps alive
+            </span>
+        </a>
+        <button id="site-nav-switch">
+            <span class="icon icon-menu"></span>
+        </button>
     </div>
-
-    <div class="header-drawer">
-        <ul class="drawer-menu-list">
-            
-                <li class="drawer-menu-item flex-center">
-                    <a class=""
-                       href="/">HOME</a>
-                </li>
-            
-                <li class="drawer-menu-item flex-center">
-                    <a class="active"
-                       href="/archives">ARCHIVES</a>
-                </li>
-            
-        </ul>
-    </div>
-
-    <div class="window-mask"></div>
-
 </header>
+    <script>setLoadingBarProgress(40);</script>
+
+    <main id="main" role="main">
+        
+    <article id="archive-page"
+             class="post article white-box">
+        <h2 class="title">
+            <a href="/archives">
+                Archives
+            </a>
+        </h2>
+        <section class="archive">
+            
+            <h3 class="archive-item archive-year">
+                <a id="archive-year-2022" href="/archives/2022/">
+                    2022
+                </a>
+            </h3>
+            
+            <div class="archive-item archive-post">
+                <a href="/2022/11/17/%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0-%E5%A4%A9%E5%A4%A9%E5%90%91%E4%B8%8A/">
+                    <time>11-17</time>
+                    <span class="title">好好学习 天天向上</span>
+                </a>
+            </div>
+            
+            <div class="archive-item archive-post">
+                <a href="/2022/11/17/title/">
+                    <time>11-17</time>
+                    <span class="title">title</span>
+                </a>
+            </div>
+            
+            <div class="archive-item archive-post">
+                <a href="/2022/11/17/hello-world/">
+                    <time>11-17</time>
+                    <span class="title">Hello World</span>
+                </a>
+            </div>
+            
+        </section>
+    </article>
+
+    
 
 
+        <script>setLoadingBarProgress(60);</script>
+    </main>
+
+    <footer id="footer" class="clearfix">
+
+    
+
+    <div class="social-wrapper">
+        
+            
+                <a href="https://github.com/artchen" class="social github"
+                   target="_blank" rel="external">
+                    <span class="icon icon-github"></span>
+                </a>
+            
+                <a href="/atom.xml" class="social rss"
+                   target="_blank" rel="external">
+                    <span class="icon icon-rss"></span>
+                </a>
+            
+        
+    </div>
+
+    <div class="theme-by">Theme <span class="codename">Memory</span> designed by <a href="https://artifact.me/"
+                                                                                    target="_blank">Art Chen</a>.
+    </div>
+    <div>&copy; <a href="/">Hexo</a></div>
+
+</footer>
+
+
+    <script>setLoadingBarProgress(80);</script>
+    <div class="overlay"></div>
+</div>
+
+<div class="site-sidebar" id="site-sidebar">
+
+    
+
+    <div class="sidebar-switch clearfix "
+         style="display: none">
+        <a class="dark-btn active" data-toggle="toc">
+            <span class="icon icon-list"></span>
+            <span class="text">Index</span>
+        </a>
+        <a class="dark-btn" data-toggle="bio">
+            <span class="icon icon-person"></span>
+            <span class="text">Bio</span>
+        </a>
+    </div>
+
+    <div class="site-toc "
+         style="display: none">
+        
+            <div class="no-index">No Index</div>
+        
+    </div>
+
+    <div class="site-bio show"
+         style="display: block">
+
+        <div class="about-me clearfix">
+            <div class="avatar">
+                <img src="/img/avatar.png"/>
+            </div>
+            <div class="info">
+                <a class="name dark-btn" href="/about">
+                    John Doe
+                </a>
+            </div>
+            <div class="info">
+                <span class="item desc">
+                    
+                </span>
+            </div>
         </div>
 
-        <div class="page-main-content-middle">
-
-            <div class="main-content">
-
+        <div class="menu section">
+            <ul class="clearfix">
                 
-                    <div class="fade-in-down-animation">
-    <div class="archive-container ">
-        
-<div class="archive-list-container">
-    
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2022</span>
-                <span class="archive-year-post-count">[4]</span>
-            </div>
-            <ul class="article-list">
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/11/19/index/"
-                        ></a>
-                        <span class="article-date">11-19</span>
+                    <li class="left">
+                        <a href="/about"
+                           onfocus="this.blur();"
+                           class="nav-about dark-btn block">
+                            About
+                        </a>
                     </li>
                 
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/11/17/%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0-%E5%A4%A9%E5%A4%A9%E5%90%91%E4%B8%8A/"
-                        >好好学习 天天向上</a>
-                        <span class="article-date">11-17</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/11/17/title/"
-                        >title</a>
-                        <span class="article-date">11-17</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/11/17/hello-world/"
-                        >Hello World</a>
-                        <span class="article-date">11-17</span>
+                    <li class="right">
+                        <a href="/archives"
+                           onfocus="this.blur();"
+                           class="nav-archives dark-btn block">
+                            Archives
+                        </a>
                     </li>
                 
             </ul>
-        </section>
-    
-</div>
-
-    </div>
-</div>
-
-                
-            </div>
-
         </div>
-
-        <div class="page-main-content-bottom">
-            <footer class="footer">
-    <div class="info-container">
-        <div class="copyright-info info-item">
-            &copy;
-            
-              <span>2020</span>
-              -
-            
-            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">The Redefine Team</a>
-        </div>
-        
-            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            <div class="website-count info-item">
-                
-                    <span id="busuanzi_container_site_uv">
-                        Visitor Count&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
-                    </span>
-                
-                
-                    <span id="busuanzi_container_site_pv">
-                        Totalview&nbsp;<span id="busuanzi_value_site_pv"></span>
-                    </span>
-                
-            </div>
-        
-        <div class="theme-info info-item">
-            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v0.3.2</a>
-        </div>
-        
-        
-    </div>
-</footer>
-        </div>
-    </div>
-
-    
-
-    <div class="right-bottom-side-tools">
-        <div class="side-tools-container">
-    <ul class="side-tools-list">
-        <li class="tools-item tool-font-adjust-plus flex-center">
-            <i class="fas fa-search-plus"></i>
-        </li>
-
-        <li class="tools-item tool-font-adjust-minus flex-center">
-            <i class="fas fa-search-minus"></i>
-        </li>
-
-        <li class="tools-item tool-expand-width flex-center">
-            <i class="fas fa-arrows-alt-h"></i>
-        </li>
-
-        <li class="tools-item tool-dark-light-toggle flex-center">
-            <i class="fas fa-moon"></i>
-        </li>
-
-        <!-- rss -->
-        
-
-        
-            <li class="tools-item tool-scroll-to-top flex-center">
-                <i class="fas fa-arrow-up"></i>
-            </li>
-        
-
-        <li class="tools-item tool-scroll-to-bottom flex-center">
-            <i class="fas fa-arrow-down"></i>
-        </li>
-    </ul>
-
-    <ul class="exposed-tools-list">
-        <li class="tools-item tool-toggle-show flex-center">
-            <i class="fas fa-cog fa-spin"></i>
-        </li>
-        
-    </ul>
-</div>
 
     </div>
 
-    
+    <div class="shortcuts">
+        <a href="#header" class="top window-nav dark-btn" id="go-top">
+            <span class="icon icon-chevron-thin-up"></span>
+        </a>
+        <a class="close dark-btn" id="sidebar-close">
+            <span class="icon icon-close"></span>
+        </a>
+        <a href="#footer" class="top window-nav dark-btn" id="go-bottom">
+            <span class="icon icon-chevron-thin-down"></span>
+        </a>
+    </div>
 
-    <div class="image-viewer-container">
-    <img src="">
 </div>
 
 
-    
-
-</main>
 
 
 
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/main.js"></script>
-
-<script src="/js/header-shrink.js"></script>
-
-<script src="/js/back2top.js"></script>
-
-<script src="/js/dark-light-toggle.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script>
 
 
-
-
-
-    
-<script src="/js/code-copy.js"></script>
-
-
-
-
-    
-<script src="/js/lazyload.js"></script>
-
-
-
-<div class="post-scripts pjax">
-    
-</div>
-
-
-    
-<script src="/js/libs/pjax.min.js"></script>
+<script src="/js/jquery.fitvids.js"></script>
 
 <script>
-    window.addEventListener('DOMContentLoaded', () => {
-        window.pjax = new Pjax({
-            selectors: [
-                'head title',
-                '.page-container',
-                '.pjax'
-            ],
-            history: true,
-            debug: false,
-            cacheBust: false,
-            timeout: 0,
-            analytics: false,
-            currentUrlFullReload: false,
-            scrollRestoration: false,
-            // scrollTo: true,
-        });
-
-        document.addEventListener('pjax:send', () => {
-            REDEFINE.utils.pjaxProgressBarStart();
-        });
-
-        document.addEventListener('pjax:complete', () => {
-            REDEFINE.utils.pjaxProgressBarEnd();
-            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
-            REDEFINE.refresh();
-        });
-    });
+  var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
+  var GOOGLE_CUSTOM_SEARCH_ENGINE_ID = "";
+  var ALGOLIA_API_KEY = "";
+  var ALGOLIA_APP_ID = "";
+  var ALGOLIA_INDEX_NAME = "";
+  var AZURE_SERVICE_NAME = "";
+  var AZURE_INDEX_NAME = "";
+  var AZURE_QUERY_KEY = "";
+  var SEARCH_SERVICE = "";
+  var universalSearchConfig = {};
+  if (SEARCH_SERVICE === 'google') {
+    universalSearchConfig = {
+      searchService: SEARCH_SERVICE,
+      apiKey: GOOGLE_CUSTOM_SEARCH_API_KEY,
+      engineId: GOOGLE_CUSTOM_SEARCH_ENGINE_ID,
+      imagePath: "/img/"
+    };
+  } else if (SEARCH_SERVICE === 'algolia') {
+    universalSearchConfig = {
+      searchService: SEARCH_SERVICE,
+      apiKey: ALGOLIA_API_KEY,
+      appId: ALGOLIA_APP_ID,
+      indexName: ALGOLIA_INDEX_NAME,
+      imagePath: "/img/"
+    };
+  } else if (SEARCH_SERVICE === 'azure') {
+    universalSearchConfig = {
+      searchService: SEARCH_SERVICE,
+      serviceName: AZURE_SERVICE_NAME,
+      indexName: AZURE_INDEX_NAME,
+      apiKey: AZURE_QUERY_KEY,
+      imagePath: "/img/"
+    };
+  }
 </script>
 
+<script src="/js/app.js"></script>
 
+
+<script src="/js/search.js"></script>
+
+
+
+
+
+<script>setLoadingBarProgress(100);</script>
 
 </body>
 </html>

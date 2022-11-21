@@ -1,349 +1,771 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+    <title>Archives: 2022/11 | Hexo</title>
+    <meta name="keywords" content="hexo,theme,otakism,otaku"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="google-site-verification" content=""/>
+    <meta name="baidu-site-verification" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="Hexo Theme Redefine">
-    <meta name="description" content="Hexo Theme Redefine">
-    <meta name="author" content="The Redefine Team">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/archives/2022/11/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
     
-    <title>
-        
-            Archive: 2022/11 |
-        
-        Theme Redefine
-    </title>
-    
-<link rel="stylesheet" href="/css/style.css">
 
-    <link rel="shortcut icon" href="/images/logo.svg">
+    <!-- Favicon -->
     
-<link rel="stylesheet" href="/css/fontawesome.min.css">
 
-    <link href="/css/fontawesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/regular.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/v5-font-face.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/duotone.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/brands.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/solid.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="//evan.beee.top/css/waline.css"/>
-    <script src="//evan.beee.top/js/waline.js"></script>
-    <link href='/css/css2.css' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script id="hexo-configurations">
-    let REDEFINE = window.REDEFINE || {};
-    REDEFINE.hexo_config = {"hostname":"example.com","root":"/","language":"en"};
-    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/avatar.svg","favicon":"/images/logo.svg","article_img_align":"center","left_side_width":"240px","content_max_width":"960px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_img":"/images/wallheaven-bg.webp","description":"Theme Redefine"},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":true},"code_copy":{"enable":true},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"0.3.2"};
-    REDEFINE.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
-  </script>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto:300,400,700" rel="stylesheet">
+
+    
+<link rel="stylesheet" href="/style.css">
+
+    <script>
+      function setLoadingBarProgress(num) {
+        document.getElementById('loading-bar').style.width = num + "%";
+      }
+    </script>
+
+    
+
+
 <meta name="generator" content="Hexo 5.4.2"></head>
 
-
 <body>
-<div class="progress-bar-container">
-    
-        <span class="scroll-progress-bar"></span>
-    
 
-    
-        <span class="pjax-progress-bar"></span>
-        <span class="pjax-progress-icon">
-            <i class="fas fa-circle-notch fa-spin"></i>
-        </span>
-    
+<div id="loading-bar-wrapper">
+  <div id="loading-bar"></div>
 </div>
 
+<script>setLoadingBarProgress(20)</script>
 
-<main class="page-container">
+<div id="site-wrapper">
 
-    
-
-    <div class="page-main-content">
-
-        <div class="page-main-content-top">
-            <header class="header-wrapper">
-    
-    <div class="header-content">
-        <div class="left">
-            
-            <a class="logo-title" href="/">
-                Theme Redefine
-            </a>
-        </div>
-
-        <div class="right">
-            <div class="pc">
-                <ul class="menu-list">
-                    
-                        <li class="menu-item">
-                            <a class=""
-                               href="/"
-                            >
-                                HOME
-                            </a>
-                        </li>
-                    
-                        <li class="menu-item">
-                            <a class="active"
-                               href="/archives"
-                            >
-                                ARCHIVES
-                            </a>
-                        </li>
-                    
-                    
-                </ul>
-            </div>
-            <div class="mobile">
-                
-                <div class="icon-item menu-bar">
-                    <div class="menu-bar-middle"></div>
-                </div>
-            </div>
-        </div>
+    <header id="header">
+    <div id="header-wrapper" class="clearfix">
+        <a id="logo" href="/">
+            <img src="/img/logo.png"/>
+            <span id="site-desc">
+                otaku keeps alive
+            </span>
+        </a>
+        <button id="site-nav-switch">
+            <span class="icon icon-menu"></span>
+        </button>
     </div>
-
-    <div class="header-drawer">
-        <ul class="drawer-menu-list">
-            
-                <li class="drawer-menu-item flex-center">
-                    <a class=""
-                       href="/">HOME</a>
-                </li>
-            
-                <li class="drawer-menu-item flex-center">
-                    <a class="active"
-                       href="/archives">ARCHIVES</a>
-                </li>
-            
-        </ul>
-    </div>
-
-    <div class="window-mask"></div>
-
 </header>
+    <script>setLoadingBarProgress(40);</script>
+
+    <main id="main" role="main">
+        
+    
 
 
+  <section class="page-header archive">
+    <h1>- <span>2022.11</span> -</h1>
+  </section>
+
+
+
+
+<section class="post-list">
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2022/11/17/%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0-%E5%A4%A9%E5%A4%A9%E5%90%91%E4%B8%8A/">
+                好好学习 天天向上
+            </a>
+        </h2>
+    
+    <time>
+        Nov 17, 2022
+    </time>
+    <section class="content">
+        <h3 id="需求"><a href="#需求" class="headerlink" title="需求:"></a><strong>需求:</strong></h3><ol>
+<li>基于<code>info.json</code></li>
+<li>随机获取一位小伙伴,<strong>count++</strong></li>
+<li>保存到<code>info.json</code></li>
+</ol>
+<h3 id="分析"><a href="#分析" class="headerlink" title="分析:"></a><strong>分析:</strong></h3><ol>
+<li><strong>准备工作:</strong><ol>
+<li>导入什么?</li>
+<li><strong>path,fs</strong></li>
+</ol>
+</li>
+<li><strong>读取:</strong><ol>
+<li><strong>readFileSync</strong>-&gt;读取出来的默认是 string(JSON)—&gt;对应的数组-&gt;JSON.parse</li>
+</ol>
+</li>
+<li><strong>业务:</strong><ol>
+<li>Math.random()–0-1的小数</li>
+<li>Math.random()*数组length–&gt;转为整数</li>
+</ol>
+</li>
+<li><strong>写入:</strong><ol>
+<li>writeFileSync—&gt;不能直接写如数组–&gt;转为string—&gt;JSON.stringify</li>
+</ol>
+</li>
+</ol>
+<h1 id="模块化的概念"><a href="#模块化的概念" class="headerlink" title="模块化的概念"></a><strong>模块化的概念</strong></h1><blockquote>
+<p>随着前端代码越来越多，如何更好的拆分，管理代码呢？这里就需要用到模块化咯</p>
+<p><a target="_blank" rel="noopener" href="https://juejin.cn/post/6844903744518389768">传送门：掘金前端模块化详解</a></p>
+</blockquote>
+<p><strong>概念：</strong></p>
+<ol>
+<li>把一个大的程序拆分成<code>互相依赖</code>的若干<strong>小文件</strong></li>
+<li>这些小文件还可以通过<strong>特定的语法</strong>组合到一起</li>
+<li>这个过程称之为<strong>模块化</strong><ol>
+<li><code>index.html</code><ol>
+<li><code>xxx.js</code></li>
+<li><code>xx.css</code></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong>优点：</strong><ol>
+<li>更好维护</li>
+<li>更好的复用性</li>
+</ol>
+</li>
+<li><strong>缺点：</strong><ol>
+<li>没有缺点😁</li>
+<li>学习对应的模块化语法(目前有<strong>2种</strong>主流,最终会变为<strong>一种</strong>)</li>
+<li>文件会很多,初期可能会出现找不到的情况</li>
+</ol>
+</li>
+</ol>
+<p><strong>分析：</strong></p>
+<ol>
+<li>功能写完只有<code>10</code>行代码，模块化没啥必要！</li>
+<li>功能写完有<code>100</code>行，或者<code>1000</code>行代码，里面有<code>好几段</code>逻辑在其他地方也要用<ol>
+<li><code>c+v</code>一把梭？<ol>
+<li><strong>c+v</strong>的逻辑,有一个地方需要调整</li>
+</ol>
+</li>
+<li>模块化！！！！</li>
+</ol>
+</li>
+<li>逻辑都写在一起，并且越写越多</li>
+</ol>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd01e135-5a7f-47c4-9228-959bc3fbe298/Untitled.png" alt="Untitled"></p>
+<ol>
+<li>进行模块化之后</li>
+</ol>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f90d0b6c-a2b4-4976-92a6-de4f7ba7099c/Untitled.png" alt="Untitled"></p>
+<h3 id="Q1"><a href="#Q1" class="headerlink" title="Q1:"></a>Q1:</h3><p>咱们介绍了什么是模块化,他的优势会在代码逐步增多的情况下逐渐体现:</p>
+<ul>
+<li>所有逻辑都写在一起，是否可以实现功能？<ol>
+<li>可以—&gt;不好维护</li>
+</ol>
+</li>
+<li>模块化可以让代码更好维护，更好___？<ol>
+<li>复用</li>
+</ol>
+</li>
+</ul>
+<h1 id="模块化的规范"><a href="#模块化的规范" class="headerlink" title="模块化的规范"></a><strong>模块化的规范</strong></h1><blockquote>
+<p>前端发展的过程中，出现过一些不同的模块化规范咱们来认识一下他们,不用都掌握,重点学习其中的2个</p>
+<p><a target="_blank" rel="noopener" href="https://juejin.cn/post/6844903576309858318">传送门：前端模块化</a></p>
+</blockquote>
+<h2 id="前端模块化规范："><a href="#前端模块化规范：" class="headerlink" title="前端模块化规范："></a><strong>前端模块化规范：</strong></h2><ul>
+<li><code>AMD</code>：–知道名字即可<ul>
+<li><code>AMD</code>规范采用异步方式加载模块，模块的加载不影响它后面语句的运行。</li>
+<li>聊到<code>AMD</code>主要指的是通过<code>require.js</code>实现的模块化</li>
+<li>项目中看到类似代码说明用的是<code>AMD</code>规范</li>
+<li>目前用的<code>很少</code>，<code>很少</code>，了解即可</li>
+</ul>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// 执行基本操作</span><br><span class="line">require([&quot;jquery&quot;,&quot;underscore&quot;],function($,_)&#123;</span><br><span class="line">  // some code here</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+</li>
+<li><code>CMD</code>：–目前没人用了<ul>
+<li>CMD是另一种js模块化方案，它与AMD很类似。</li>
+<li>不同点在于：AMD 推崇依赖前置、提前执行，CMD推崇依赖就近、延迟执行。</li>
+<li>项目中看到类似代码说明用的是<code>CMD</code>规范</li>
+<li>目前用的<code>很少</code>，<code>很少</code>，<code>了解</code>即可(<strong>sea.js</strong>)</li>
+</ul>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">define(function(require, exports, module) &#123;</span><br><span class="line">    var a = require(&#x27;./a&#x27;); //在需要时申明</span><br><span class="line">    a.doSomething();</span><br><span class="line">    if (false) &#123;</span><br><span class="line">        var b = require(&#x27;./b&#x27;);</span><br><span class="line">        b.doSomething();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+</li>
+<li><code>CommonJS</code>  ⇒ <code>Node.js</code><ul>
+<li><code>Node.js</code>是<code>CommonJS</code>规范的主要实践者</li>
+<li>咱们目前能接触到用<code>commonJS</code>规范的也就是<code>Node.js</code></li>
+</ul>
+</li>
+<li><strong><code>ESM</code></strong><ul>
+<li>也叫做<code>ES6 Module</code></li>
+<li><strong>ES6</strong> 在语言标准的层面上，实现了模块功能，逐步会成为<strong>浏览器</strong>和<strong>服务器</strong>通用的模块解决方案👍👍</li>
+<li>之后基本上所有的代码都是用这个方案！！</li>
+</ul>
+</li>
+</ul>
+<h3 id="规范"><a href="#规范" class="headerlink" title="规范:"></a><strong>规范:</strong></h3><ol>
+<li><strong>规范的含义</strong>:约定了如何<strong>导出/导入</strong>模块</li>
+<li><strong>遵守</strong>规范,需要实现<strong>规范约定</strong>的功能</li>
+</ol>
+<h3 id="Q2"><a href="#Q2" class="headerlink" title="Q2:"></a>Q2:</h3><p>咱们介绍了前端开发中出现过的一些不同模块化规范,咱们学习其中两个即可<strong>CommonJS</strong>,<strong>ESM</strong></p>
+<ul>
+<li><code>Node.js</code>是哪个规范的主要实践者？<ol>
+<li><code>CommonJS</code></li>
+</ol>
+</li>
+<li><code>ESM</code>也叫做什么？<ol>
+<li>ES6 Module—&gt;之后的通用解决方案</li>
+</ol>
+</li>
+</ul>
+<h1 id="Node-js中的模块分类"><a href="#Node-js中的模块分类" class="headerlink" title="Node.js中的模块分类"></a><strong>Node.js中的模块分类</strong></h1><blockquote>
+<p>学习了模块化之后，咱们写的JS文件就有了一个更好听的名字-模块。而在Node.js中除了咱们自己写的模块,还有一些其他的模块</p>
+</blockquote>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/18b28c19-8b66-4754-a8e4-7ad7b133e067/Untitled.png" alt="Untitled"></p>
+<p><code>Node.js</code>中的模块主要有3个分类：</p>
+<ul>
+<li><strong>自定义模块</strong><ul>
+<li>NodeJS中，创建的<code>JS</code>文件都是自定义模块。（也就是处处皆模块）</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="http://nodejs.cn/api/">内置模块</a>（核心模块）<ul>
+<li>安装Node之后，自带了很多内置模块。我们可以直接加载使用他们。</li>
+</ul>
+</li>
+<li><strong>第三方</strong>模块<ul>
+<li>其他人编写的模块，发布到 <a target="_blank" rel="noopener" href="https://www.npmjs.com/">npm 网站</a> 上，我们可以下载使用。</li>
+</ul>
+</li>
+</ul>
+<h3 id="Vue-React下载量"><a href="#Vue-React下载量" class="headerlink" title="Vue-React下载量"></a>Vue-React下载量</h3><p><a target="_blank" rel="noopener" href="https://npmtrends.com/">npm trends: Compare NPM package downloads</a></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5756b31e-72ea-41d9-b038-5fa129036a18/Untitled.png" alt="Untitled"></p>
+<p><strong>npm包下载统计</strong></p>
+<p><a target="_blank" rel="noopener" href="https://npm-stat.com/">npm-stat: download statistics for NPM packages</a></p>
+<h3 id="Q3"><a href="#Q3" class="headerlink" title="Q3:"></a>Q3:</h3><ul>
+<li>Node.js中咱们自己的JS文件是什么模块？<ol>
+<li>自定义模块</li>
+</ol>
+</li>
+<li>Node.js中的模块还有哪些分类？<ol>
+<li>内置</li>
+<li>第三方</li>
+</ol>
+</li>
+</ul>
+<h2 id="CommonJS模块"><a href="#CommonJS模块" class="headerlink" title="CommonJS模块"></a><strong>CommonJS模块</strong></h2><blockquote>
+<p>Node.js是CommonJS规范的主要实践者,咱们需要如何使用呢？</p>
+<p><a target="_blank" rel="noopener" href="https://nodejs.org/api/modules.html">传送门:Node.js-CommonJS模块</a></p>
+</blockquote>
+<h3 id="模块作用域"><a href="#模块作用域" class="headerlink" title="模块作用域"></a><strong>模块作用域</strong></h3><ul>
+<li>在 <code>Node.js</code> 中，用户创建的每个 <code>.js</code> 文件都是<strong>自定义模块</strong>。</li>
+<li>在自定义模块中定义的<strong>变量、方法</strong>等成员，只能在当前模块内被访问</li>
+<li>这种模块级别的访问限制，叫做<strong>模块作用域</strong>。</li>
+<li>正因为如此,才需要<strong>导入/导出</strong></li>
+</ul>
+<h3 id="语法："><a href="#语法：" class="headerlink" title="语法："></a><strong>语法：</strong></h3><ol>
+<li>通过<strong>module.exports</strong>导出(暴露)内容<ol>
+<li><code>module</code> 是Node中的一个全局对象，对象包含当前模块的详细信息。</li>
+<li><code>module.exports</code> 是模块的出口，通俗的说，就是导出内容用的，默认值是 <code>&#123;&#125;</code></li>
+</ol>
+</li>
+<li>通过<strong>require</strong>加载内容<ol>
+<li><code>require</code>是<code>Node</code>中的一个全局方法,可以用来导入模块</li>
+<li><code>const 结果 = require(&#39;模块路径&#39;)</code></li>
+<li><strong>只能</strong>加载模块暴露的内容</li>
+</ol>
+</li>
+</ol>
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试:"></a><strong>测试:</strong></h3><ol>
+<li>创建模块<code>/module/myModule.js</code></li>
+<li>添加<strong>变量</strong>,<strong>方法</strong>,并通过<code>module.exports</code><strong>导出</strong></li>
+<li>通过<code>require</code><strong>导入</strong>模块</li>
+<li>测试能否获取<strong>导出</strong>的内容</li>
+</ol>
+<h3 id="Q-4-核心就是导入和导出"><a href="#Q-4-核心就是导入和导出" class="headerlink" title="Q:4 核心就是导入和导出"></a>Q:4 核心就是<strong>导入</strong>和<strong>导出</strong></h3><ul>
+<li><code>CommonJS</code>中<strong>导出</strong>模块的语法是？<ol>
+<li><code>module.exports</code></li>
+</ol>
+</li>
+<li><code>CommonJS</code>中加载(<strong>导入</strong>)模块的语法是？<ol>
+<li><code>require</code></li>
+</ol>
+</li>
+</ul>
+<h1 id="数据模块-封装"><a href="#数据模块-封装" class="headerlink" title="数据模块-封装"></a><strong>数据模块-封装</strong></h1><blockquote>
+<p>基于刚刚学习的知识,咱们来封装一个功能模块</p>
+</blockquote>
+<h3 id="需求-1"><a href="#需求-1" class="headerlink" title="需求:"></a><strong>需求:</strong></h3><ol>
+<li>基于提供的数据实现<code>db</code>模块<ol>
+<li>调用方法,返回对应的数据</li>
+</ol>
+</li>
+<li>数据在<code>02-其他资料</code>中</li>
+</ol>
+<figure class="highlight tsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> db = <span class="built_in">require</span>(<span class="string">&#x27;db.js&#x27;</span>)</span><br><span class="line">db.<span class="title function_">news</span>() <span class="comment">// 返回新闻数据 数组</span></span><br><span class="line">db.<span class="title function_">students</span>() <span class="comment">// 返回 所有的同学信息 数组</span></span><br><span class="line">db.<span class="title function_">luckystar</span>()<span class="comment">// 返回随机的同学 对象 count累加,保存回数据</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="分析-1"><a href="#分析-1" class="headerlink" title="分析:"></a><strong>分析:</strong></h3><ol>
+<li><strong>准备</strong><ol>
+<li>需要导入什么? fs,path（绝对路径）</li>
+</ol>
+</li>
+<li><strong>逻辑:</strong><ol>
+<li><code>news()</code>:绝对路径–&gt;读取(<strong>新闻</strong>)-&gt;转数组-&gt;返回</li>
+<li><code>students()</code>:绝对路径–&gt;读取(<strong>学员</strong>)-&gt;转数组-&gt;返回</li>
+<li><code>luckystar()</code>:绝对路径–&gt;读取(<strong>学员</strong>)-&gt;转数组-&gt;随机-&gt;count++-&gt;返回同学-&gt;保存回去</li>
+</ol>
+</li>
+<li><strong>导出:</strong></li>
+</ol>
+<h3 id="Q-5"><a href="#Q-5" class="headerlink" title="Q:5"></a>Q:5</h3><p>咱们基于提供的数据封装了一个数据模块</p>
+<ul>
+<li>封装的目的是?<ol>
+<li>方便复用,更好维护</li>
+</ol>
+</li>
+<li>使用封装好的模块时是否需要看懂<strong>源码</strong>?<ol>
+<li>只需要知道:<strong>方法–&gt;功能</strong></li>
+</ol>
+</li>
+</ul>
+<h1 id="npm"><a href="#npm" class="headerlink" title="npm"></a><strong>npm</strong></h1><h2 id="npm是什么？"><a href="#npm是什么？" class="headerlink" title="npm是什么？"></a><strong>npm是什么？</strong></h2><blockquote>
+<p>开发中一般不会什么功能都自己写，如何优雅的下载第三方模块呢?—npm</p>
+<p><a target="_blank" rel="noopener" href="https://docs.npmjs.com/cli/v8/using-npm">传送门：如何使用npm</a></p>
+</blockquote>
+<ul>
+<li><strong>npm 是 管理（下载、卸载、发布）第三方模块的工具。</strong></li>
+<li><code>npm</code>（node package manager）node 包管理工具。管理node包的工具。</li>
+<li><strong>包</strong>是什么？包就是模块。（<strong>包约等于模块</strong>，一个包可以包括一个或多个模块）</li>
+<li>npm这个工具，在安装 node 的时候，就已经安装到你的计算机中了。（捆绑安装）</li>
+<li>命令行中执行： <code>npm -v</code> ，如果看到<strong>版本号</strong>，说明安装成功了。</li>
+</ul>
+<p><a href=""></a></p>
+<h3 id="npm是什么"><a href="#npm是什么" class="headerlink" title="npm是什么?"></a><strong>npm是什么?</strong></h3><p>刚才介绍了之后会经常使用的一个包管理工具-<code>npm</code></p>
+<ul>
+<li><code>npm</code>是什么?<ol>
+<li>node的包管理工具</li>
+<li>前端的第三方模块.也可以用它下载</li>
+</ol>
+</li>
+<li>输入什么命令可以确认<code>npm</code>的版本?<ol>
+<li><code>npm -v</code></li>
+</ol>
+</li>
+</ul>
+<h2 id="npm基本使用"><a href="#npm基本使用" class="headerlink" title="npm基本使用"></a><strong>npm基本使用</strong></h2><blockquote>
+<p>上一节介绍了npm的概念，如何使用他呢?</p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/432578145">传送门:淘宝镜像站更换新域名啦</a></p>
+</blockquote>
+<p>淘宝镜像站 </p>
+<p><a target="_blank" rel="noopener" href="https://npmmirror.com/">npmmirror 中国镜像站</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 设置淘宝镜像，设置了之后，安装node模块，从国内镜像下载</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看npm地址</span></span><br><span class="line">npm config get registry</span><br><span class="line"></span><br><span class="line"><span class="comment"># 还原 node.js在某些版本下，安装国内镜像可能或报错，还原回npm服务器</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 通过cnpm 安装模块 </span></span><br><span class="line"><span class="comment"># 或者使用cnpm  ==&gt; 以后使用 cnpm 安装，使用国内镜像站</span></span><br><span class="line">npm install -g cnpm --registry=https://registry.npmmirror.com</span><br><span class="line"><span class="comment"># 查看cnpm </span></span><br><span class="line">cnpm -v <span class="comment"># 以后可以使用 </span></span><br><span class="line"><span class="comment"># 安装新模块 </span></span><br><span class="line">cnpm install xxx </span><br></pre></td></tr></table></figure>
+
+<h3 id="新建文件夹，初始化项目"><a href="#新建文件夹，初始化项目" class="headerlink" title="新建文件夹，初始化项目"></a>新建文件夹，初始化项目</h3><p><strong>基本步骤:</strong></p>
+<ol>
+<li><strong>初始化</strong>项目</li>
+<li>下载需要的<strong>第三方</strong>模块</li>
+</ol>
+<p><strong>详细步骤：</strong></p>
+<p>初始化命令的<strong>两种</strong>写法</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm init -y</span><br><span class="line"><span class="comment"># 或</span></span><br><span class="line">npm init</span><br><span class="line"><span class="comment"># 然后一路回车</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>注意：</strong></p>
+<p><code>npm init</code>默认会读取文件夹名作为<code>项目名 ==&gt; package name</code></p>
+<ul>
+<li><strong>package name</strong><ul>
+<li>不能有<strong>中文</strong></li>
+<li>不能有<strong>特殊符号</strong></li>
+<li>不能和需要安装的<strong>第三方模块</strong>同名</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>初始化之后，会在项目目录中生成 <code>package.json</code> 的文件。</li>
+<li>初始化完毕之后就可以在<strong>当前文件夹</strong>安装第三方模块<ol>
+<li>为了保证安装速度，建议执行这个命令</li>
+<li>命令的作用是切换第三方模块的下载地址为<code>淘宝镜像</code></li>
+</ol>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">建议在安装第三方模块之前，先执行如下命令。</span><br><span class="line">下面的命令只需要执行一次即可（不管以后重启vscode还是重启电脑，都不需要执行第二次）</span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com</span><br></pre></td></tr></table></figure>
+</li>
+<li>下载的命令 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 正常的下载安装</span></span><br><span class="line">npm install 模块名</span><br><span class="line"></span><br><span class="line"><span class="comment"># 简写install为i</span></span><br><span class="line">npm i 模块名</span><br><span class="line"></span><br><span class="line"><span class="comment"># 一次性安装多个模块</span></span><br><span class="line">npm i 模块名 模块名 模块名</span><br><span class="line"><span class="comment"># 可以通过@版本号,不设置默认是最新</span></span><br><span class="line">npm i 模块名@版本号</span><br></pre></td></tr></table></figure>
+</li>
+<li>卸载的命令 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall 模块名</span><br><span class="line">npm un 模块名</span><br><span class="line">npm un 模块名 模块名 模块名</span><br></pre></td></tr></table></figure>
+</li>
+<li>测试<code>下载</code>和<code>卸载</code><ol>
+<li><code>axios</code></li>
+<li><code>dayjs</code></li>
+</ol>
+</li>
+<li>观察下载之后项目中<strong>下列文件</strong>发生的变化<ol>
+<li><code>package.json</code><ol>
+<li>保存下载的模块信息</li>
+</ol>
+</li>
+<li><code>package-lock.json</code></li>
+<li><code>node_modules</code></li>
+</ol>
+</li>
+</ol>
+<h3 id="Q6"><a href="#Q6" class="headerlink" title="Q6:"></a>Q6:</h3><ul>
+<li><code>npm</code>初始化的项目名是否有要求？<ol>
+<li>不能为中文,不能有特殊符号,大写字母⇒ 小写</li>
+</ol>
+</li>
+<li>下载模块的命令是？<ol>
+<li>npm i 模块名</li>
+<li>npm i 模块名@版本号</li>
+</ol>
+</li>
+<li>移除模块的命令是？<ol>
+<li>npm un 模块名</li>
+</ol>
+</li>
+</ul>
+<h2 id="dayjs-基本使用"><a href="#dayjs-基本使用" class="headerlink" title="dayjs-基本使用"></a><strong>dayjs-基本使用</strong></h2><blockquote>
+<p>上一节咱们下载了dayjs,咱们来看看这个库的作用是什么,并且来测试一下</p>
+<p><a target="_blank" rel="noopener" href="https://dayjs.fenxianglu.cn/">传送门:dayjs</a></p>
+<p><a target="_blank" rel="noopener" href="https://dayjs.fenxianglu.cn/category/parse.html#%E5%AD%97%E7%AC%A6%E4%B8%B2">传送门:解析规则</a></p>
+</blockquote>
+<h3 id="dayjs格式"><a href="#dayjs格式" class="headerlink" title="dayjs格式"></a>dayjs格式</h3><p><a target="_blank" rel="noopener" href="https://dayjs.fenxianglu.cn/category/display.html#%E6%A0%BC%E5%BC%8F%E5%8C%96">https://dayjs.fenxianglu.cn/category/display.html#格式化</a></p>
+<p>⇒ 注意大小写！！ 不能修改</p>
+<figure class="highlight tsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">dayjs</span>().<span class="title function_">format</span>();                                     <span class="comment">// 2020-09-08T13:42:32+08:00</span></span><br><span class="line"><span class="title function_">dayjs</span>().<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>);                         <span class="comment">// 2020-09-08</span></span><br><span class="line"><span class="title function_">dayjs</span>().<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD HH:mm:ss&#x27;</span>);                <span class="comment">// 2020-09-08 13:47:12</span></span><br><span class="line"><span class="title function_">dayjs</span>(<span class="number">1318781876406</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD HH:mm:ss&#x27;</span>);   <span class="comment">// 2011-10-17 00:17:56</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="需求-2"><a href="#需求-2" class="headerlink" title="需求:"></a><strong>需求:</strong></h3><ol>
+<li>根据文档确认用法并测试使用</li>
+<li>将提供数据中的日期转为<code>2022-07-18 17:35:53</code>这种格式</li>
+</ol>
+<h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤:"></a><strong>步骤:</strong></h3><ol>
+<li>参考<strong>文档</strong>,测试并使用</li>
+<li>将如下时间戳转为<code>YYYY-MM-DD HH:mm:ss</code>这种格式 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1668640759762</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="Q7-dayjs-基本使用"><a href="#Q7-dayjs-基本使用" class="headerlink" title="Q7:dayjs-基本使用"></a>Q7:<strong>dayjs-基本使用</strong></h3><p>这一小节咱们学习了日期格式化库-<code>dayjs</code>的基本使用:</p>
+<ul>
+<li>任何库的使用套路都是类似的:<ol>
+<li>基于文档的示例-&gt;<strong>c+v</strong>运行</li>
+<li>根据文档,传入不同的<strong>参数</strong></li>
+</ol>
+</li>
+<li>如何进阶?<ol>
+<li>基本使用:<strong>入门</strong></li>
+<li>重度使用:<strong>熟练–&gt;精通→</strong> </li>
+<li>修复<strong>框架/库</strong>的bug:<strong>开源框架贡献者</strong></li>
+<li>实现<strong>框架/库</strong>:<strong>开源框架作者</strong></li>
+</ol>
+</li>
+</ul>
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><ol>
+<li>模块化<ol>
+<li>作用:<ol>
+<li>大的–&gt;小的</li>
+<li>小–&gt;组合到一起</li>
+</ol>
+</li>
+<li>规范:<ol>
+<li><strong>CommonJS</strong></li>
+<li><strong>ESM</strong></li>
+</ol>
+</li>
+<li>语法:<ol>
+<li>module.exports—&gt;导出(暴露)</li>
+<li>require()–&gt;导入</li>
+<li>只能在<code>Node.js</code>中</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>npm:<ol>
+<li>查看版本:<code>npm -v</code></li>
+<li>下包:<ol>
+<li><code>npm i 包名</code></li>
+<li><code>npm i 包名@版本号</code></li>
+</ol>
+</li>
+<li>用包<ol>
+<li>跟着文档使用–<code>dayjs</code></li>
+</ol>
+</li>
+<li>删包<ol>
+<li><code>npm un 包名</code></li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="package-json和package-lock-json的作用"><a href="#package-json和package-lock-json的作用" class="headerlink" title="package.json和package-lock.json的作用"></a><strong>package.json和package-lock.json的作用</strong></h2><blockquote>
+<p>项目中中多出来的package.json和package-lock.json的作用是什么呢？</p>
+<p><a target="_blank" rel="noopener" href="https://docs.npmjs.com/cli/v8/configuring-npm/package-json">传送门:package.json</a></p>
+<p><a target="_blank" rel="noopener" href="https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json">传送门:package-lock.json</a></p>
+<p><a target="_blank" rel="noopener" href="https://juejin.cn/post/6870426598605062152">传送门:详解package.json和package-lock.json</a></p>
+</blockquote>
+
+
+        
+
+        
+
+    </section>
+</article>
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2022/11/17/title/">
+                title
+            </a>
+        </h2>
+    
+    <time>
+        Nov 17, 2022
+    </time>
+    <section class="content">
+        <h4 id="1-用户信息配置"><a href="#1-用户信息配置" class="headerlink" title="1. 用户信息配置"></a>1. 用户信息配置</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git config --<span class="variable language_">global</span> user.<span class="property">name</span> <span class="string">&quot;&quot;</span></span><br><span class="line">git config --<span class="variable language_">global</span> user.<span class="property">email</span> <span class="string">&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">git config --<span class="variable language_">global</span> --list</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-创建一个git仓库"><a href="#2-创建一个git仓库" class="headerlink" title="2. 创建一个git仓库"></a>2. 创建一个git仓库</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># cd 文件夹   打开终端  注意在哪个文件下</span></span><br><span class="line">git init </span><br><span class="line"></span><br><span class="line"><span class="comment"># 下载已经存在的项目</span></span><br><span class="line">git <span class="built_in">clone</span> 地址</span><br></pre></td></tr></table></figure>
+
+<h4 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">工作区 暂存区 git仓库</span><br><span class="line"></span><br><span class="line">文件的四个状态</span><br><span class="line">未纳入管理  未跟踪 Untracked</span><br><span class="line">纳入git管理   未修改</span><br><span class="line">			已修改</span><br><span class="line">			已暂存</span><br><span class="line">            </span><br><span class="line">git的三个状态  已修改   已暂存   已提交</span><br></pre></td></tr></table></figure>
+
+<h4 id="4-将文件纳入git管理"><a href="#4-将文件纳入git管理" class="headerlink" title="4. 将文件纳入git管理"></a>4. 将文件纳入git管理</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git add 文件名 </span><br><span class="line">git add .</span><br><span class="line"></span><br><span class="line"><span class="comment"># 将已修改的文件放到暂存区</span></span><br><span class="line">git add . </span><br></pre></td></tr></table></figure>
+
+<h4 id="5-查看git状态"><a href="#5-查看git状态" class="headerlink" title="5. 查看git状态"></a>5. 查看git状态</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git status </span><br><span class="line">git status --short</span><br><span class="line">git status -s</span><br></pre></td></tr></table></figure>
+
+<h4 id="6-提交这次版本更新"><a href="#6-提交这次版本更新" class="headerlink" title="6.  提交这次版本更新"></a>6.  提交这次版本更新</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git commit -m <span class="string">&quot;描述信息&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 跳过暂存区 直接提交   这个文件必须已经纳入git管理，并提交过</span></span><br><span class="line">git commit -am <span class="string">&quot;描述信息&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="7-查看提交的历史记录"><a href="#7-查看提交的历史记录" class="headerlink" title="7. 查看提交的历史记录"></a>7. 查看提交的历史记录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">log</span> --oneline</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看所有的记录</span></span><br><span class="line">git reflog</span><br></pre></td></tr></table></figure>
+
+<h4 id="8-回退版本"><a href="#8-回退版本" class="headerlink" title="8. 回退版本"></a>8. 回退版本</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard commitID</span><br></pre></td></tr></table></figure>
+
+<h4 id="9"><a href="#9" class="headerlink" title="9."></a>9.</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset HEAD .    <span class="comment"># 将暂存区的文件移到工作区</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="10"><a href="#10" class="headerlink" title="10"></a>10</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 将仓库中的文件变为未跟踪的状态</span></span><br><span class="line">git <span class="built_in">rm</span> --cached 文件名</span><br><span class="line">git <span class="built_in">rm</span> -r --cached .  <span class="comment"># 一次性全部移除</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="11-当我们使用-gitignore-的时候"><a href="#11-当我们使用-gitignore-的时候" class="headerlink" title="11. 当我们使用.gitignore 的时候"></a>11. 当我们使用.gitignore 的时候</h4><p>.gitignore 只忽略未跟踪的文件  ==&gt; vscode icon  插件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. git <span class="built_in">rm</span> -r --cached .</span><br><span class="line">2. git add .</span><br><span class="line">3. git commit -m <span class="string">&quot;update .gitignore&quot;</span></span><br></pre></td></tr></table></figure>
+
+        
+
+        
+
+    </section>
+</article>
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2022/11/17/hello-world/">
+                Hello World
+            </a>
+        </h2>
+    
+    <time>
+        Nov 17, 2022
+    </time>
+    <section class="content">
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+
+        
+
+        
+
+    </section>
+</article>
+  
+</section>
+
+
+
+        <script>setLoadingBarProgress(60);</script>
+    </main>
+
+    <footer id="footer" class="clearfix">
+
+    
+
+    <div class="social-wrapper">
+        
+            
+                <a href="https://github.com/artchen" class="social github"
+                   target="_blank" rel="external">
+                    <span class="icon icon-github"></span>
+                </a>
+            
+                <a href="/atom.xml" class="social rss"
+                   target="_blank" rel="external">
+                    <span class="icon icon-rss"></span>
+                </a>
+            
+        
+    </div>
+
+    <div class="theme-by">Theme <span class="codename">Memory</span> designed by <a href="https://artifact.me/"
+                                                                                    target="_blank">Art Chen</a>.
+    </div>
+    <div>&copy; <a href="/">Hexo</a></div>
+
+</footer>
+
+
+    <script>setLoadingBarProgress(80);</script>
+    <div class="overlay"></div>
+</div>
+
+<div class="site-sidebar" id="site-sidebar">
+
+    
+
+    <div class="sidebar-switch clearfix "
+         style="display: none">
+        <a class="dark-btn active" data-toggle="toc">
+            <span class="icon icon-list"></span>
+            <span class="text">Index</span>
+        </a>
+        <a class="dark-btn" data-toggle="bio">
+            <span class="icon icon-person"></span>
+            <span class="text">Bio</span>
+        </a>
+    </div>
+
+    <div class="site-toc "
+         style="display: none">
+        
+            <div class="no-index">No Index</div>
+        
+    </div>
+
+    <div class="site-bio show"
+         style="display: block">
+
+        <div class="about-me clearfix">
+            <div class="avatar">
+                <img src="/img/avatar.png"/>
+            </div>
+            <div class="info">
+                <a class="name dark-btn" href="/about">
+                    John Doe
+                </a>
+            </div>
+            <div class="info">
+                <span class="item desc">
+                    
+                </span>
+            </div>
         </div>
 
-        <div class="page-main-content-middle">
-
-            <div class="main-content">
-
+        <div class="menu section">
+            <ul class="clearfix">
                 
-                    <div class="fade-in-down-animation">
-    <div class="archive-container ">
-        
-<div class="archive-list-container">
-    
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2022</span>
-                <span class="archive-year-post-count">[4]</span>
-            </div>
-            <ul class="article-list">
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/11/19/index/"
-                        ></a>
-                        <span class="article-date">11-19</span>
+                    <li class="left">
+                        <a href="/about"
+                           onfocus="this.blur();"
+                           class="nav-about dark-btn block">
+                            About
+                        </a>
                     </li>
                 
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/11/17/%E5%A5%BD%E5%A5%BD%E5%AD%A6%E4%B9%A0-%E5%A4%A9%E5%A4%A9%E5%90%91%E4%B8%8A/"
-                        >好好学习 天天向上</a>
-                        <span class="article-date">11-17</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/11/17/title/"
-                        >title</a>
-                        <span class="article-date">11-17</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2022/11/17/hello-world/"
-                        >Hello World</a>
-                        <span class="article-date">11-17</span>
+                    <li class="right">
+                        <a href="/archives"
+                           onfocus="this.blur();"
+                           class="nav-archives dark-btn block">
+                            Archives
+                        </a>
                     </li>
                 
             </ul>
-        </section>
-    
-</div>
-
-    </div>
-</div>
-
-                
-            </div>
-
         </div>
-
-        <div class="page-main-content-bottom">
-            <footer class="footer">
-    <div class="info-container">
-        <div class="copyright-info info-item">
-            &copy;
-            
-              <span>2020</span>
-              -
-            
-            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">The Redefine Team</a>
-        </div>
-        
-            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            <div class="website-count info-item">
-                
-                    <span id="busuanzi_container_site_uv">
-                        Visitor Count&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
-                    </span>
-                
-                
-                    <span id="busuanzi_container_site_pv">
-                        Totalview&nbsp;<span id="busuanzi_value_site_pv"></span>
-                    </span>
-                
-            </div>
-        
-        <div class="theme-info info-item">
-            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v0.3.2</a>
-        </div>
-        
-        
-    </div>
-</footer>
-        </div>
-    </div>
-
-    
-
-    <div class="right-bottom-side-tools">
-        <div class="side-tools-container">
-    <ul class="side-tools-list">
-        <li class="tools-item tool-font-adjust-plus flex-center">
-            <i class="fas fa-search-plus"></i>
-        </li>
-
-        <li class="tools-item tool-font-adjust-minus flex-center">
-            <i class="fas fa-search-minus"></i>
-        </li>
-
-        <li class="tools-item tool-expand-width flex-center">
-            <i class="fas fa-arrows-alt-h"></i>
-        </li>
-
-        <li class="tools-item tool-dark-light-toggle flex-center">
-            <i class="fas fa-moon"></i>
-        </li>
-
-        <!-- rss -->
-        
-
-        
-            <li class="tools-item tool-scroll-to-top flex-center">
-                <i class="fas fa-arrow-up"></i>
-            </li>
-        
-
-        <li class="tools-item tool-scroll-to-bottom flex-center">
-            <i class="fas fa-arrow-down"></i>
-        </li>
-    </ul>
-
-    <ul class="exposed-tools-list">
-        <li class="tools-item tool-toggle-show flex-center">
-            <i class="fas fa-cog fa-spin"></i>
-        </li>
-        
-    </ul>
-</div>
 
     </div>
 
-    
+    <div class="shortcuts">
+        <a href="#header" class="top window-nav dark-btn" id="go-top">
+            <span class="icon icon-chevron-thin-up"></span>
+        </a>
+        <a class="close dark-btn" id="sidebar-close">
+            <span class="icon icon-close"></span>
+        </a>
+        <a href="#footer" class="top window-nav dark-btn" id="go-bottom">
+            <span class="icon icon-chevron-thin-down"></span>
+        </a>
+    </div>
 
-    <div class="image-viewer-container">
-    <img src="">
 </div>
 
 
-    
-
-</main>
 
 
 
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/main.js"></script>
-
-<script src="/js/header-shrink.js"></script>
-
-<script src="/js/back2top.js"></script>
-
-<script src="/js/dark-light-toggle.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script>
 
 
-
-
-
-    
-<script src="/js/code-copy.js"></script>
-
-
-
-
-    
-<script src="/js/lazyload.js"></script>
-
-
-
-<div class="post-scripts pjax">
-    
-</div>
-
-
-    
-<script src="/js/libs/pjax.min.js"></script>
+<script src="/js/jquery.fitvids.js"></script>
 
 <script>
-    window.addEventListener('DOMContentLoaded', () => {
-        window.pjax = new Pjax({
-            selectors: [
-                'head title',
-                '.page-container',
-                '.pjax'
-            ],
-            history: true,
-            debug: false,
-            cacheBust: false,
-            timeout: 0,
-            analytics: false,
-            currentUrlFullReload: false,
-            scrollRestoration: false,
-            // scrollTo: true,
-        });
-
-        document.addEventListener('pjax:send', () => {
-            REDEFINE.utils.pjaxProgressBarStart();
-        });
-
-        document.addEventListener('pjax:complete', () => {
-            REDEFINE.utils.pjaxProgressBarEnd();
-            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
-            REDEFINE.refresh();
-        });
-    });
+  var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
+  var GOOGLE_CUSTOM_SEARCH_ENGINE_ID = "";
+  var ALGOLIA_API_KEY = "";
+  var ALGOLIA_APP_ID = "";
+  var ALGOLIA_INDEX_NAME = "";
+  var AZURE_SERVICE_NAME = "";
+  var AZURE_INDEX_NAME = "";
+  var AZURE_QUERY_KEY = "";
+  var SEARCH_SERVICE = "";
+  var universalSearchConfig = {};
+  if (SEARCH_SERVICE === 'google') {
+    universalSearchConfig = {
+      searchService: SEARCH_SERVICE,
+      apiKey: GOOGLE_CUSTOM_SEARCH_API_KEY,
+      engineId: GOOGLE_CUSTOM_SEARCH_ENGINE_ID,
+      imagePath: "/img/"
+    };
+  } else if (SEARCH_SERVICE === 'algolia') {
+    universalSearchConfig = {
+      searchService: SEARCH_SERVICE,
+      apiKey: ALGOLIA_API_KEY,
+      appId: ALGOLIA_APP_ID,
+      indexName: ALGOLIA_INDEX_NAME,
+      imagePath: "/img/"
+    };
+  } else if (SEARCH_SERVICE === 'azure') {
+    universalSearchConfig = {
+      searchService: SEARCH_SERVICE,
+      serviceName: AZURE_SERVICE_NAME,
+      indexName: AZURE_INDEX_NAME,
+      apiKey: AZURE_QUERY_KEY,
+      imagePath: "/img/"
+    };
+  }
 </script>
 
+<script src="/js/app.js"></script>
 
+
+<script src="/js/search.js"></script>
+
+
+
+
+
+<script>setLoadingBarProgress(100);</script>
 
 </body>
 </html>
